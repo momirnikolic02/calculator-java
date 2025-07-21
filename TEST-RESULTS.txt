@@ -1,0 +1,30 @@
+
+BLACK BOX TESTING REPORT
+
+Testirani su izrazi poput:
+- 4+5
+- 4+5*2
+- 10/(2+3)
+- 5/0
+- abc+5
+- 2147483647+1
+- 0*1000
+- 100-200+50
+- -5+10
+- 3*3*3
+- 1 +    2
+- 5--5
+
+ZAPAZANJA:
+- Nema podrske za zagrade
+- Ne postoji obrada deljenja nulom
+- Izraze koji nisu validni parser ne prijavljuje jasno
+- Ne podrzava izraze sa dvostrukim minusom
+- Scanner objekat nije zatvoren
+
+PREDLOZI ZA UNAPREĐENJE:
+- Implementirati parser izraza sa podrskom za zagrade
+- Dodati validaciju izraza pre izvrsavanja
+- Implementirati prepoznavanje duplih operatora
+- Zatvoriti Scanner nakon koriscenja
+
